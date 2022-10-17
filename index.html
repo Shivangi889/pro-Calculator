@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="	justify-content: center;
+	align-items: center;" >
+    <!-- <h2>Calculator</h2> -->
+</div>
+    <div class="calc">
+        <div style="	margin: 5px 10px 10px 5px;font-weight: bold;
+        font-size: 17px; font-family: 'Nunito Sans', sans-serif,'Roboto Slab', serif
+        'Kanit'; color: rgb(4, 101, 131);">       
+             <h1> CALCULATOR</h1>
+        </div>
+      <input type="text" placeholder="0" id="calc">
+      
+
+      <button onclick="Clear()" style="background-color: rgb(12, 162, 170);">AC</button>
+      <button onclick="Delete()" style="color:rgb(210, 67, 67) ;">Del</button>
+      <button onclick="display('%')">%</button>
+      <button onclick="display('/')">/</button>
+      <button onclick="display('()')">()</button>
+
+      <button onclick="display('7')">7</button>
+      <button onclick="display('8')">8</button>
+      <button onclick="display('9')">9</button>
+      <button onclick="display('*')">*</button>
+      <button onclick="display('4')">4</button>
+      <button onclick="display('5')">5</button>
+      <button onclick="display('6')">6</button>
+      <button onclick="display('+')">+</button>
+      <button onclick="display('1')">1</button>
+      <button onclick="display('2')">2</button>
+      <button onclick="display('3')">3</button>
+      <button onclick="display('-')">-</button>
+      <button onclick="display('0')">0</button>
+      <button onclick="display('.')">.</button>
+      
+      <button onclick="calc('=')" style="width: 60px; text-shadow: 2ex; background-color: rgb(244, 205, 9);" >=</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
