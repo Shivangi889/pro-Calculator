@@ -22,4 +22,3 @@ function calc() {
     output.value = "Error";
   }
 }
-Footer
